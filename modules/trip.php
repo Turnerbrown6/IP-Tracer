@@ -5,7 +5,7 @@ function trac() {
   $yel="\033[01;33m";
   $prompt="\n\033[00m";
   echo $prompt;
-  $ip = readline('  Enter IP : ');
+  $ip = readline('  Enter IP :192.16.0.1 ');
   $data = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
   $FCL="\033[01;33m";
   $MCL="\033[01;37m>\033[01;32m";
